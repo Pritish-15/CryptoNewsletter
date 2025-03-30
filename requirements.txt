@@ -1,0 +1,19 @@
+# List of dependencies
+scrapy
+beautifulsoup4
+newspaper3k
+openai
+transformers
+requests
+python-dotenv
+torch
+torchvision
+torchaudio
+pillow
+
+whisper
+vosk
+python-telegram-bot
+
+discord.py
+tweepy

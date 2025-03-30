@@ -1,24 +1,23 @@
 import json
-import openai
 import os
 from dotenv import load_dotenv
+from PIL import Image, ImageDraw, ImageFont
 
 def generate_image(prompt, save_path):
-    """Generates an image using DALL·E and saves it locally."""
+    """Generates a simple image with text and saves it locally."""
     try:
-        response = openai.Image.create(
-            model="dall-e-2",
-            prompt=prompt,
-            n=1,
-            size="1024x1024"
-        )
-        
-        image_url = response["data"][0]["url"]
-        response = requests.get(image_url)
-        if response.status_code == 200:
-            with open(save_path, 'wb') as f:
-                f.write(response.content)  # Save image
+        # Create a blank image with white background
+        img = Image.new('RGB', (1024, 1024), color='white')
+        d = ImageDraw.Draw(img)
 
+        # Load a font
+        font = ImageFont.load_default()
+
+        # Draw the prompt text on the image
+        d.text((10, 10), prompt, fill=(0, 0, 0), font=font)
+
+        # Save the image
+        img.save(save_path)
         print(f"✅ Image saved: {save_path}")
         return save_path
     except Exception as e:
@@ -42,7 +41,7 @@ def process_sentiment_data(input_file="D:/frosthack/AI-CryptoNewsletter-Curator/
             
             final_report[source].append({
                 "title": article["title"],
-                "link": article["link"],
+                "url": article["url"],  # Changed 'link' to 'url'
                 "summary": article["summary"],
                 "sentiment": article["gpt_sentiment"],
                 "image": generated_image

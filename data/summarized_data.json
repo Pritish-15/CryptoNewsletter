@@ -41,7 +41,7 @@
             "url": "https://cryptoslate.com/web3/"
         },
         {
-            "title": "Is the altcoin market in even deeper trouble?",
+            "title": "Made in the USA: OpenAI\u2019s strategy to keep American AI competitive",
             "summary": "No summary available",
             "url": "https://cryptoslate.com/ai/"
         },
@@ -54,65 +54,75 @@
     "Decrypt": [
         {
             "title": "Coin Prices",
-            "summary": "$83,237.00",
+            "summary": "$82,298.00",
             "url": "https://decrypt.co//price/bitcoin"
         },
         {
             "title": "BTC",
-            "summary": "$83,237.00",
+            "summary": "$82,298.00",
             "url": "https://decrypt.co//price/bitcoin"
         },
         {
             "title": "ETH",
-            "summary": "$1,840.70",
+            "summary": "$1,801.46",
             "url": "https://decrypt.co//price/ethereum"
         },
         {
             "title": "XRP",
-            "summary": "$2.18",
+            "summary": "$2.13",
             "url": "https://decrypt.co//price/xrp"
         },
         {
             "title": "BNB",
-            "summary": "$608.65",
+            "summary": "$599.54",
             "url": "https://decrypt.co//price/binance-coin"
         },
         {
             "title": "SOL",
-            "summary": "$125.93",
+            "summary": "$124.24",
             "url": "https://decrypt.co//price/solana"
         },
         {
             "title": "USDC",
-            "summary": "$0.9999",
+            "summary": "$0.999945",
             "url": "https://decrypt.co//price/usd-coin"
         },
         {
             "title": "DOGE",
-            "summary": "$0.171039",
+            "summary": "$0.167812",
             "url": "https://decrypt.co//price/dogecoin"
         },
         {
             "title": "ADA",
-            "summary": "$0.682562",
+            "summary": "$0.66351",
             "url": "https://decrypt.co//price/cardano"
         },
         {
             "title": "TRX",
-            "summary": "$0.231472",
+            "summary": "$0.231685",
             "url": "https://decrypt.co//price/tron"
         }
     ],
     "CoinTelegraph": [
         {
             "title": "News",
-            "summary": "Several crypto commentators pointed out that the majority of their net worth was in the hands of a man who makes \"cat noises at a robot.\"",
-            "url": "https://cointelegraph.com//news/ethereum-founder-vitalik-buterin-interaction-robot-crypto-industry-frenzy"
+            "summary": "Bridging assets from centralized exchanges to decentralized exchanges has typically been a cumbersome and difficult process for users.",
+            "url": "https://cointelegraph.com//news/binance-debuts-centralized-exchange-decentralized-exchange-trades"
+        },
+        {
+            "title": "Opinion",
+            "summary": "Stablecoins power deobanks, a new generation of decentralized banks that offer accessible, efficient and transparent financial solutions, especially in high-risk areas.",
+            "url": "https://cointelegraph.com//news/stablecoins-are-powering-deobanks"
         },
         {
             "title": "News",
-            "summary": "River Financial CEO Alex Leishman argues that once an exchange lists ETH and SOL, it \u201cmakes no sense\u201d not to list related crypto tokens from their ecosystems.",
-            "url": "https://cointelegraph.com//news/altcoin-listing-sets-off-hamster-wheel-memecoin-listings-river-financial-ceo"
+            "summary": "Bitcoin and stocks face pressure as Trump prepares new tariff announcements for April 2, sparking trade war fears and cooling investor risk appetite.",
+            "url": "https://cointelegraph.com//news/trump-s-trade-war-pressures-crypto-market-as-april-2-tariffs-loom"
+        },
+        {
+            "title": "Market Update",
+            "summary": "Bitcoin sees ten-day lows in weekend trading as most market participants stay braced for further BTC price losses \u2014 can whales save the day with $78,000 bids?",
+            "url": "https://cointelegraph.com//news/65k-bitcoin-price-targets-pile-up-spoofy-whale-buys-dip"
         },
         {
             "title": "News",
@@ -121,33 +131,23 @@
         },
         {
             "title": "News",
-            "summary": "Regulators should work with DeFi firms to craft sensible policies instead of \"unnecessarily stringent rules,\" Shibtoshi told Cointelegraph.",
-            "url": "https://cointelegraph.com//news/institutions-hesitant-decentralized-finance-shibtoshi"
+            "summary": "The savvy trader\u2019s position peaked at $43 million during Pepe\u2019s peak valuation as memecoins continue minting new crypto millionaires.",
+            "url": "https://cointelegraph.com//news/crypto-trader-turns-2k-into-43m-with-pepe-sells-for-10m-profit"
+        },
+        {
+            "title": "Altcoin Watch",
+            "summary": "Some analysts predict a drop below $2, but prevailing bullish continuation and fractal chart patterns are hinting at a long-term target toward $12.50.",
+            "url": "https://cointelegraph.com//news/xrp-price-2-opportunity-bull-market-end-analysts"
         },
         {
             "title": "News",
-            "summary": "Coin Bureau founder Nic Puckrin said he expects two 25 basis point rate cuts from the Federal Reserve in 2025 and no quantitative easing.",
-            "url": "https://cointelegraph.com//news/us-recession-40-likely-2025-what-means-crypto-analyst"
+            "summary": "Crypto industry professionals say US regulation must clarify banking and stablecoins before focusing on taxes, as Trump-backed reforms push crypto into the spotlight.",
+            "url": "https://cointelegraph.com//news/us-crypto-leaders-seek-stablecoin-guidance-before-tax-reform"
         },
         {
-            "title": "Market Analysis",
-            "summary": "Analysts say central banks will expand liquidity in the near future, opening the door for Bitcoin price to make a push toward new all-time highs.",
-            "url": "https://cointelegraph.com//news/potential-bitcoin-price-fall-to-65-k-irrelevant-since-central-bank-liquidity-is-coming-analyst"
-        },
-        {
-            "title": "News",
-            "summary": "Kalshi argues that its event contracts provide traders with a hedge against market risks and are not gambling or betting products.",
-            "url": "https://cointelegraph.com//news/kalshi-sues-nevada-new-jersey-gaming-regulators"
-        },
-        {
-            "title": "Market Analysis",
-            "summary": "Bitcoin's price is down 6.5% in two days, and validating a bear flag puts the BTC price at risk of a deeper correction.",
-            "url": "https://cointelegraph.com//news/how-low-can-the-bitcoin-price-go"
-        },
-        {
-            "title": "Opinion",
-            "summary": "As DeFi matures, Bitcoin emerges as the ideal foundation for secure and scalable financial innovation, offering a battle-tested infrastructure that surpasses Ethereum\u2019s experimental ethos.",
-            "url": "https://cointelegraph.com//news/the-future-of-finance-is-built-on-bitcoin"
+            "title": "Explained",
+            "summary": "Crypto-backed mortgages allow you to secure a home loan using cryptocurrency as collateral. You can invest in real estate while holding your crypto.",
+            "url": "https://cointelegraph.com//explained/what-are-crypto-backed-mortgages-and-how-do-they-work"
         }
     ]
 }

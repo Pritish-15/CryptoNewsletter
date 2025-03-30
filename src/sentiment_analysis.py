@@ -8,14 +8,16 @@ import nltk
 # Load API keys from .env
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+print(f"Loaded OpenAI API Key: {OPENAI_API_KEY}")  # Debugging line to check API key
 openai.api_key = OPENAI_API_KEY
+
 
 # Ensure NLTK resources are available
 nltk.download("vader_lexicon")
 sia = SentimentIntensityAnalyzer()
 
 def analyze_sentiment(text):
-    """Analyzes sentiment using GPT-4 and VADER."""
+    """Analyzes sentiment using GPT-3.5-turbo and VADER."""
     try:
         # VADER sentiment analysis
         vader_score = sia.polarity_scores(text)
@@ -24,17 +26,12 @@ def analyze_sentiment(text):
             "Negative" if vader_score["compound"] < -0.05 else "Neutral"
         )
         
-        # GPT-4 sentiment analysis
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": "Analyze the sentiment of the following crypto article summary (Positive, Neutral, or Negative)."},
-                {"role": "user", "content": text}
-            ]
-        )
-        gpt_sentiment = response['choices'][0]['message']['content'].strip()
+        # Removed GPT-3.5-turbo sentiment analysis
+        gpt_sentiment = "Not applicable"  # Placeholder since we are not using OpenAI
+
         
-        return vader_sentiment, gpt_sentiment
+        return vader_sentiment, "Not applicable"  # Return only VADER sentiment
+
     except Exception as e:
         print(f"❌ Error in sentiment analysis: {e}")
         return "Unknown", "Unknown"
